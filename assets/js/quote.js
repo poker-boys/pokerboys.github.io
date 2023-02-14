@@ -1,8 +1,10 @@
 function textOfToday() {
 
   var textOfTodayArray =
-  ['<p>No naughty hands allowed.</p>',
-  'String 2'];
+  ['No naughty hands allowed.',
+  'String 2', 
+  '#bazzing it 24/7',
+  ];
 
   document.getElementById('quoteDisplay').innerHTML = textOfTodayArray[Math.floor(Math.random() * textOfTodayArray.length)];
 }
